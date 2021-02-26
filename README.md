@@ -10,10 +10,10 @@ i.e.
 
 should result in a file called "f000.." with the same content
 
-#DONE:
+# DONE:
 	*retransmission
 	*transmission window scaling
-#TODO:
+# TODO:
 	*recovery from complete stall
 	*use real hash
 	*use larger than 32 byte blocks (damn serde limit!)
