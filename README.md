@@ -18,3 +18,4 @@ TODO:
 	use real hash
 	use larger than 32 byte blocks (damn serde limit!)
 	tail end of transfer has a lot of dups
+	better variable names
