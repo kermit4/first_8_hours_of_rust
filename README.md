@@ -21,4 +21,4 @@ should result in a file called "f000.." with the same content
 	* use larger than 32 byte blocks (damn serde limit!)
 	* tail end of transfer has a lot of dups
 	* better variable names
-	* reduce code duplication and break up long recieve() function
+	* reduce code duplication and break up long receive() function

@@ -96,7 +96,7 @@ fn receive() -> Result<bool,std::io::Error> {
 		let mut buf = [0;1500]; //	[0; ::std::mem::size_of::Content];
 		let (_amt, src) = socket.recv_from(&mut buf).expect("socket error");
 		let c: Content = bincode::deserialize(&buf).unwrap();
-		println!("recieved block: {:?}", c.offset);
+		println!("received block: {:?}", c.offset);
 		if ! uploads.contains_key(&hex::encode(c.hash)) { // new upload
 			let u = Upload {
 				hash: c.hash,
