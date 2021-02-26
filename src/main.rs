@@ -153,7 +153,7 @@ fn receive() -> Result<bool,std::io::Error> {
 		socket.send_to(&encoded[..],&src).expect("cant send_to");
 		u.requested+=1;
 
-		if (u.requested%30) == 0 { // push it to 1% packet loss
+		if (u.requested%100) == 0 { // push it to 1% packet loss
 			if u.next_missing<u.highest_seen || u.lastreq+1>=blocks(u.len) {
 				m.offset=u.next_missing; u.next_missing+=1;
 				println!("requesting extra, missing block {:?}", m.offset);
