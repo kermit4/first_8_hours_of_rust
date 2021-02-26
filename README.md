@@ -10,12 +10,12 @@ i.e.
 
 should result in a file called "f000.." with the same content
 
-DONE:
-	retransmission
-	transmission window scaling
-TODO:
-	recovery from complete stall
-	use real hash
-	use larger than 32 byte blocks (damn serde limit!)
-	tail end of transfer has a lot of dups
-	better variable names
+#DONE:
+	*retransmission
+	*transmission window scaling
+#TODO:
+	*recovery from complete stall
+	*use real hash
+	*use larger than 32 byte blocks (damn serde limit!)
+	*tail end of transfer has a lot of dups
+	*better variable names
