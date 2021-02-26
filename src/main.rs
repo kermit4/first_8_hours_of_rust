@@ -128,6 +128,7 @@ fn receive() -> Result<bool,std::io::Error> {
 
 		if u.first_missing==blocks(u.len) { // upload done
 			u.file.set_len(u.len)?;
+			println!("upload done");
 //			uploads.remove(&hex::encode(c.hash));  this will just start over if packets are in flight, so it needs a delay
 			continue;
 		}
