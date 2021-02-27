@@ -6,8 +6,11 @@ With args it will send a file.  (It does not exit when it's done, and it may sta
 
 i.e.
 ```
-./udp_uploader &
-./udp_uploader /etc/passwd 127.0.0.1:34254
+
+cargo build
+./target/debug/udp_uploader &
+sleep 1
+./target/debug/udp_uploader /etc/passwd 127.0.0.1:34254
 ```
 
 should result in a file called "f000.." with the same content
