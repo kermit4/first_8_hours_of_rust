@@ -1,6 +1,4 @@
-point in time to show learing speed, see next 8 hours at https://github.com/kermit4/first_16_hours_of_rust
-
-THIS IS JUST A DEMO OF MY RUST SKILL LEVEL, IT IS NOT ACTUALLY VERY USEFUL
+This repo is point in time to show learning speed and applicability of non-Rust background to Rust proprogramming, see next 8 hours at https://github.com/kermit4/first_16_hours_of_rust
 
 If run with no args, it will listen for uploads.
 
