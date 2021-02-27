@@ -1,3 +1,5 @@
+point in time to show learing speed, see also https://github.com/kermit4/first_16_hours_of_rust
+
 THIS IS JUST A DEMO OF MY RUST SKILL LEVEL, IT IS NOT ACTUALLY VERY USEFUL
 
 If run with no args, it will listen for uploads.
