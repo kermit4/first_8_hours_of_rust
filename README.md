@@ -1,6 +1,6 @@
 WORKING
 
-This repo is only a snapshot to show my Rust learning speed, the applicability of my non-Rust background to Rust programming, and knowledge of Rust features:
+These repos are to show my Rust learning speed, the applicability of my non-Rust programming background to Rust, and my knowledge of Rust features:
 
 https://github.com/kermit4/first_2_hours_of_rust     
 https://github.com/kermit4/first_8_hours_of_rust      (this repo)
