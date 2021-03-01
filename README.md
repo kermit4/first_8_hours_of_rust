@@ -1,6 +1,6 @@
 WORKING
 
-This repo is snapshot to show my Rust learning speed and the applicability of my non-Rust background to Rust proprogramming, see next 8 hours at https://github.com/kermit4/first_16_hours_of_rust
+This repo is snapshot to show my Rust learning speed and the applicability of my non-Rust background to Rust programming, see next 8 hours at https://github.com/kermit4/first_16_hours_of_rust
 
 If run with no args, it will listen for uploads.
 
