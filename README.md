@@ -5,6 +5,7 @@ This repo is only a snapshot to show my Rust learning speed, the applicability o
 https://github.com/kermit4/first_2_hours_of_rust     
 https://github.com/kermit4/first_8_hours_of_rust      (this repo)
 https://github.com/kermit4/first_16_hours_of_rust     
+https://github.com/kermit4/multisource_udp_uploader.rs.git (latest version but not time tracking any more)
 
 If run with no args, it will listen for uploads.
 
